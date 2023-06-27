@@ -5,7 +5,7 @@
 }
 
 :root{
-    --site-font: 'Arimo', sans-serif;
+    --site-font: 'Mulish', sans-serif;
     --font-color: #444851;
 }
 
@@ -25,7 +25,7 @@ main{
 #logo-name{
     font-family: var(--site-font);
     font-size: 42px;
-    font-weight: bold;
+    font-weight: 800;
     margin-left: 5px;
  
 }
@@ -67,41 +67,52 @@ main{
 }
 
 .section{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .section-name{
     font-family: var(--site-font);
     color: var(--font-color);
-    font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
 .arrow-section {
-    transform: scaley(0.5);
-    font-size: 16px;
-    vertical-align: middle;
+    font-size: 20px;
 }
 
 .task-done{
     color: #6dc5b1;
     border: 1px solid #6dc5b1; 
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     text-align: center; 
-    border-radius: 15px;
-    line-height: 20px;
+    border-radius: 7px;
+    line-height: 15px;
     display: inline-block;
     font-weight: 800;
-    font-size: 12px;
+    font-size: 10px;
+}
+
+.task-not-done{
+    color: red;
+    border: 1px solid red; 
+    width: 15px;
+    height: 15px;
+    text-align: center; 
+    border-radius: 7px;
+    line-height: 15px;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 9px;
 }
 
 .main-text{
     font-family: var(--site-font);
     color: var(--font-color);
     font-weight: 600;
-    margin-left: 5px;
+    margin-left: 3px;
 }
 
 .bookmark{
@@ -112,8 +123,32 @@ main{
     color: white;
 }
 
+.task{
+    margin-bottom: 20px;
+}
+
 .editorial{
     background-color: #47adf1;
+}
+
+.q1{
+    background-color: #9c72e4;
+}
+
+.recruiting{
+    background-color: #64c0a9;
+}
+
+.mobile{
+    background-color: #f39f33;
+}
+
+.website{
+    background-color: #d863a0;
+}
+
+.sales{
+    background-color: #b1c927;
 }
 
 

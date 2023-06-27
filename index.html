@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -16,21 +16,54 @@
     </header>
     <main>
         <div id="container">
+
             <div id="add-container">
                 <input type="button" value="Add Task" class="button add-task">
                 <input type="button" value="Add Section" class="button add-section">
             </div>
+
             <div id="task-container">
-                <div id="section">
+                <div class="section">
                     <div class="section-name">
-                        <span class="arrow-section">&#9660;</span> New Task
+                        <span class="arrow-section">&dtrif;</span> New Task
                     </div>
-                    <div class="new-task">
+                    <div class="task-list">
                         <div class="task-done">&check;</div>
                         <span class="main-text">Quarterly Newsletter</span>
                         <span class="bookmark editorial">Editorial</span>
                     </div>
                 </div>
+
+                <div class="section">
+                    <div class="section-name">
+                        <span class="arrow-section">&dtrif;</span> Today
+                    </div>
+                    <div class="task-list">
+                        <div class="task">
+                            <div class="task-done">&check;</div>
+                            <span class="main-text">Recruiting blog post</span>
+                            <span class="bookmark editorial">Editorial</span>
+                        </div>
+                        <div class="task">
+                            <div class="task-done">&check;</div>
+                            <span class="main-text">Mobile app launch</span>
+                            <span class="bookmark q1">Q1 Goals</span>
+                        </div>
+                        <div class="task">
+                            <div class="task-not-done">&cross;</div>
+                            <span class="main-text">Interview John H.</span>
+                            <span class="bookmark recruiting">Recruiting</span>
+                        </div>
+                        <div class="task">
+                            <div class="task-done">&check;</div>
+                            <span class="main-text">Summit update to mobile storefronts</span>
+                            <span class="bookmark mobile">Mobile</span>
+                        </div>                
+                    </div>
+                </div>
+
+                
+
             </div>
         </div>
     </main>
