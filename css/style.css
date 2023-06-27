@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --site-font: 'Arimo', sans-serif;
+}
+
+header{
+    padding: 20px;
+}
+
+#logo{
+    vertical-align: top;   
+}
+
+#logo-name{
+    font-family: var(--site-font);
+    font-size: 42px;
+    font-weight: bold;
+    margin-left: 5px;
+ 
+}
+
