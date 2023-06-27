@@ -12,6 +12,11 @@ header{
     padding: 20px;
 }
 
+main{
+    background-color: whitesmoke;
+    padding-top: 40px;
+}
+
 #logo{
     vertical-align: top;   
 }
@@ -24,3 +29,37 @@ header{
  
 }
 
+#container{
+    width: 1200px;
+    margin: auto;
+}
+
+#add-container{
+    margin-bottom: 5px;
+    background-color: white;
+    padding: 20px 80px;
+    border-radius: 10px 10px 0 0;
+}
+
+.button{
+    padding: 5px 10px;
+    font-family: var(--site-font);
+    border-radius: 5px;
+}
+
+.add-task{
+    background-color: #47adf1;
+    color: white;
+    border: none;
+}
+
+.add-section{
+    background-color: white;
+    color: lightgrey;
+    border: 1px solid lightgray;
+}
+
+#task-container{
+    background-color: white;
+    height: 100px;
+}
