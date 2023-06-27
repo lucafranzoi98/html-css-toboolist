@@ -6,6 +6,7 @@
 
 :root{
     --site-font: 'Arimo', sans-serif;
+    --font-color: #444851;
 }
 
 header{
@@ -62,4 +63,58 @@ main{
 #task-container{
     background-color: white;
     height: 100px;
+    padding: 50px 80px;
 }
+
+.section{
+    margin-bottom: 50px;
+}
+
+.section-name{
+    font-family: var(--site-font);
+    color: var(--font-color);
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.arrow-section {
+    transform: scaley(0.5);
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.task-done{
+    color: #6dc5b1;
+    border: 1px solid #6dc5b1; 
+    width: 20px;
+    height: 20px;
+    text-align: center; 
+    border-radius: 15px;
+    line-height: 20px;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.main-text{
+    font-family: var(--site-font);
+    color: var(--font-color);
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.bookmark{
+    border-radius: 12px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-family: var(--site-font);
+    color: white;
+}
+
+.editorial{
+    background-color: #47adf1;
+}
+
+
+
